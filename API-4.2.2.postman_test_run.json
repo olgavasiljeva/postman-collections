@@ -1,0 +1,113 @@
+{
+	"id": "b7ab1cda-7785-4b1b-887d-0cb8abf9a5a5",
+	"name": "API-4.1",
+	"timestamp": "2025-12-15T19:59:07.164Z",
+	"collection_id": "20586342-0b5cbaf2-a51d-4b6c-b640-f25285160633",
+	"folder_id": "20586342-0aa868fc-8fa5-4a61-ba03-075ef61ed115",
+	"environment_id": "20586342-c92a0115-2399-4879-bcf4-7e24d62794ee",
+	"totalPass": 28,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-12-15T19:59:05.876Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7fb44e01-f298-45df-8f46-51d69b5f43fe",
+			"name": "Create Task",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks",
+			"time": 67,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201 Created": true,
+				"Response contains task ID": true,
+				"Response contains all task fields": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201 Created": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Response contains task ID": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Response contains all task fields": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 7,
+					"fail": 0
+				}
+			},
+			"times": [
+				484,
+				69,
+				67,
+				67,
+				67,
+				67,
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 201 Created": true,
+					"Response contains task ID": true,
+					"Response contains all task fields": true,
+					"Response time is acceptable": true
+				},
+				{
+					"Status code is 201 Created": true,
+					"Response contains task ID": true,
+					"Response contains all task fields": true,
+					"Response time is acceptable": true
+				},
+				{
+					"Status code is 201 Created": true,
+					"Response contains task ID": true,
+					"Response contains all task fields": true,
+					"Response time is acceptable": true
+				},
+				{
+					"Status code is 201 Created": true,
+					"Response contains task ID": true,
+					"Response contains all task fields": true,
+					"Response time is acceptable": true
+				},
+				{
+					"Status code is 201 Created": true,
+					"Response contains task ID": true,
+					"Response contains all task fields": true,
+					"Response time is acceptable": true
+				},
+				{
+					"Status code is 201 Created": true,
+					"Response contains task ID": true,
+					"Response contains all task fields": true,
+					"Response time is acceptable": true
+				},
+				{
+					"Status code is 201 Created": true,
+					"Response contains task ID": true,
+					"Response contains all task fields": true,
+					"Response time is acceptable": true
+				}
+			]
+		}
+	],
+	"count": 7,
+	"totalTime": 888,
+	"collection": {
+		"requests": [
+			{
+				"id": "7fb44e01-f298-45df-8f46-51d69b5f43fe",
+				"method": "POST"
+			}
+		]
+	}
+}

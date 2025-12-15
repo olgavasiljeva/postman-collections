@@ -1,0 +1,8 @@
+test_name,text,answer,title,expected_status
+Valid data,Test SQL query,Expected result,Task_Valid,201
+Empty title,Test task,Test answer,,201
+Empty text,,Test answer,Task_NoText,201
+Empty answer,Test task,,Task_NoAnswer,201
+All empty,,,,201
+Long title,Test task,Test answer,LoremIpsumLoremIpsumLoremIpsumLoremIpsum,201
+Special chars,SELECT * FROM users,DROP TABLE,Task_Special,201
